@@ -28,3 +28,13 @@
     z-index: 10;
     transition: transform
 }
+.sun {
+    left: 5px;
+}
+.moon {
+    right: 5px;
+}
+#checkbox:checked + .ball {
+    transform: 
+    translate(29px, -50%)
+}

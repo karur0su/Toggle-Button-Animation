@@ -47,13 +47,16 @@ body {
     left: 2px;
     z-index: 20;
     transition: transform
-    .10s ease-in-out;
+    .5s ease-in-out;
+    
+  
 }
 .sun {
-    left: 10px;
+    left: 9px;
+ 
 }
 .moon {
-    right: 10px;
+    right: 9px;
 }
 #checkbox:checked + .ball {
     transform: 

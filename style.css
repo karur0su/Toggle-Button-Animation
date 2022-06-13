@@ -27,6 +27,7 @@
     left: 1px;
     z-index: 10;
     transition: transform
+    .5s ease-in-out;
 }
 .sun {
     left: 5px;
@@ -36,5 +37,5 @@
 }
 #checkbox:checked + .ball {
     transform: 
-    translate(29px, -50%)
+    translate(29px, -50%);
 }
